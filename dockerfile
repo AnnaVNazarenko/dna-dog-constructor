@@ -13,4 +13,4 @@ COPY . .
 EXPOSE 8080
 
 # Запускаем Streamlit с флагами для работы в контейнере
-CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "main.py", "--server.port=8080", "--server.address=0.0.0.0"]
